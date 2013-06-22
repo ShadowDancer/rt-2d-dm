@@ -144,8 +144,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WormsDeathmatchContent\WormsDeathmatchContent.contentproj">
-      <Name>WormsDeathmatchContent</Name>
+      <Name>WormsDeathmatchContent %28Content%29</Name>
       <XnaReferenceType>Content</XnaReferenceType>
+      <Project>{2F298E18-5980-4223-9A77-64037E815FAE}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

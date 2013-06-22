@@ -12,8 +12,8 @@ namespace WormsDeathmatch
         {
             Rectangle rect = new Rectangle((int)(Worm.Position.X - Worm.GroundCollisionSize.X / 2), (int)(Worm.Position.Y - Worm.GroundCollisionSize.Y / 2), (int)Worm.GroundCollisionSize.X, (int)Worm.GroundCollisionSize.Y);
 
-            int circleDistanceX = (int)Math.Abs(Position.X - rect.X);
-            int circleDistanceY = (int)Math.Abs(Position.Y - rect.Y);
+            int circleDistanceX = (int)Math.Abs(Position.X - Worm.Position.X);
+            int circleDistanceY = (int)Math.Abs(Position.Y - Worm.Position.Y);
 
             if (circleDistanceX > (rect.Width / 2 + Radius)) { return false; }
             if (circleDistanceY > (rect.Height / 2 + Radius)) { return false; }

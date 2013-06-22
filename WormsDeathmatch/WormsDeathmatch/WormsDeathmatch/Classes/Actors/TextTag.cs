@@ -7,6 +7,9 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace WormsDeathmatch
 {
+    /// <summary>
+    /// Ingame popup displaying message (for instance weapon switch, damage etc.)
+    /// </summary>
     public class TextTag
     {
         string Text;
